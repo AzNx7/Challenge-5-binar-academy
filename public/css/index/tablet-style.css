@@ -1,0 +1,140 @@
+@media (min-width: 768px) and (max-width: 992px) {
+    /*Game Option*/
+    .option-page .option-text h3{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 24px;
+    }
+    .option-page .option-text h1{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 80px;
+    }
+    .option-page .carousel-games {
+        position: absolute;
+        width: 500px;
+        top: 40%;
+        right: 10%;
+    }
+    .option-page .option-text{
+        width: 500px;
+        position: absolute;
+        top: 15%;
+        text-align: left;
+        left: 20%;
+        color: #ffffff;
+    }
+
+    /*Features*/
+    .ftr-main .ftr-text h3{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 24px;
+    }
+
+    .ftr-main .ftr-text h1{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 80px;
+    }
+
+    .ftr-main .ftr-content h2{
+        color: #ffba53!important;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 36px;
+    }
+
+    .ftr-main .ftr-content {
+        font-family: "Open Sans", sans-serif;
+        font-size: 18px;
+    }
+    /*system requirement*/
+    .rq-main .rq-text h3{
+        font-family: "Open Sans", sans-serif;
+        font-size: 18px;
+    }
+
+    .rq-main .rq-sys h1{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 80px;
+    }
+
+    /*table*/
+
+    .rq-main .table p,
+    .rq-main .table h2{
+        font-family: "Open Sans", sans-serif;
+        font-size: 18px;
+    }
+
+    .rq-main .table h2{
+        color: #ffba53!important;
+    }
+    /*top score*/
+    .top-score .score-headings h1{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 80px;
+    }
+
+    .top-score .score-headings h2{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 36px;
+    }
+
+    .top-score .score-headings a{
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .top-score .row h3{
+        font-family: "Open Sans", sans-serif;
+        font-size: 24px;
+        color: #ffba53!important;
+    }
+
+    .top-score .row h4{
+        font-family: "Open Sans", sans-serif;
+        font-size: 18px;
+    }
+
+    .top-score .row h5,
+    .top-score .row p{
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+    }
+    .top-score .score-headings{
+        color: #ffffff;
+        position: absolute;
+        top: 30px;
+        width: 30vw;
+        text-align: left;
+      }
+    .top-score .row .card{
+        top: 150px;
+        right: 0;
+        position: relative;
+        margin: 10px;
+    }
+    /*newletter*/
+    .newsletter .text-left{
+        color: white;
+    }
+
+    .newsletter .text-left h3{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 24px;
+    }
+
+    .newsletter .text-left h1{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 80px;
+    }
+
+    .newsletter .text-left p{
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+    }
+
+    .navigation-end {
+        font-family: "Open Sans", sans-serif;
+        color: white;
+        font-size: 16px;
+    }
+}

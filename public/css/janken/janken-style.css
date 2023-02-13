@@ -1,0 +1,96 @@
+/*Top Part*/
+.topPart div .d-inline-block {
+	line-height: 2;
+}
+
+.topPart img{
+	width: 40px;
+	height: 40px;
+
+}
+.topPart div .textTop{
+	height: 40px;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #eeb50c;
+}
+
+/*Body part, background */
+
+.bgGame {
+	height: 100%;
+    width: 100%;
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	background-color: #a07e4f;
+}
+
+/*Row part*/
+
+.contentGame {
+	position: relative;
+	top: 100px;
+	text-align: center !important;
+}
+
+.contentGame .row div h3 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.contentGamet .row.gameImage .col-4{
+	height: 15px;
+}
+
+.contentGame .row.gameImage img {
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+
+.contentGame .row div.hoverPoint {
+	border-radius: 15%;
+}
+
+.contentGame .refresh{
+	width: 80px;
+	height: 80px;
+	cursor: pointer;
+}
+
+.contentGame .row.gameImage .versus {
+	position: relative;
+	z-index: 1;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.contentGame .row.gameImage .versus h1 {
+	font-weight: bold;
+	font-size: 40px;
+	color: #ff0000;
+}
+
+.contentGame .row.gameImage .versus .result {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	transform: rotate(-30deg);
+	margin-left: -30px;
+}
+
+.contentGame .row.gameImage .versus .result h5{
+	display: table-cell;
+	vertical-align: middle;
+	background-color: #4C9654;
+	border-radius: 5%;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+	height: 55px;
+	padding: 10px 40px;
+}

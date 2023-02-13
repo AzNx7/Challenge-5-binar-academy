@@ -1,0 +1,29 @@
+/* Tablet version */
+@media (min-width: 768px) and (max-width: 992px) {
+
+	.contentGame {
+			top: 20vh;
+	}
+
+	.contentGame .row div h3 {
+			font-size: 28px;
+	}
+
+	.contentGame .row.gameImage .col-sm-3{
+			height: 150px;
+	}
+	
+	.contentGame .row.gameImage img {
+			width: 100px;
+			height: 100px;
+	}
+
+	.contentGame .row.gameImage .versus h1 {
+			font-size: 64px;
+	}
+
+	.contentGame .row.gameImage .versus .result h5 {
+			font-size: 28px;
+			height: 90px !important;
+	}
+}

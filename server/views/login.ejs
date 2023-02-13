@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/index/reg-log.css" rel="stylesheet "/>
+    <title>Login</title>
+</head>
+<body>
+    <div class="bg-color">
+        <div class="text">
+            <h1>Register</h1>
+            <% if (messages.error) { %>
+                <%= messages.error %>
+              <% } %>
+            <form action="/login" method="POST">
+                <div>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="text" name="password" id="pass" required>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+            <a href="/register" class="text">Register</a>
+            <a href="/" class="text">Go back</a>
+        </div>
+
+    </div>
+</body>
+</html>

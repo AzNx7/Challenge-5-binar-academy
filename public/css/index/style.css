@@ -1,0 +1,388 @@
+
+/* general Layout Content */
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    background-color: black;
+}
+
+
+
+
+/*For Bebas Neue  font-family: 'Bebas Neue', cursive; */
+/*For Open Sans  font-family: "Open Sans", sans-serif;*/
+
+/* homepage-page */
+
+/*Navigation Bar*/
+.navbar-custom {
+  background-color: rgba(0, 0, 0, 0.5)!important;
+  position: fixed;
+  z-index: 1;
+}
+
+.navbar-center .navbar-center {
+  margin-left: 40px;
+}
+
+.navbar-brand img {
+  height: 3rem;
+}
+
+.navbar-custom .nav-link{
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+}
+
+.navbar {
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: .1rem;
+}
+
+
+.nav-item {
+  padding: 8px;
+}
+
+.nav-link {
+  color: #ffffff!important; /*Text Color*/
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: #ffba53!important; /*Active - Text Color*/
+}
+/*main text*/
+
+.homepage { /*background page 1*/
+  background: url('/img/index/main-bg.jpg') no-repeat center fixed;
+  min-height: 100vh;
+  position: relative;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  box-shadow: inset 0px -80px 240px black,
+  inset 0px -100px 200px black
+  ;
+}
+.homepage .landing-page {
+  position: relative;
+  top: 30%;
+  margin: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.homepage .landing-page h1{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 80px;
+}
+
+.homepage .landing-page h2{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 36px;
+}
+
+.homepage .landing-page a{
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* caret down */
+
+.down-arrow {
+  width: 100vw;
+  position: absolute;
+  bottom: 5%;
+}
+.down-arrow h3{
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+
+
+}
+
+.down-arrow .caret-down {
+  color: #ffffff;
+  display: table;
+  margin: 0 auto;
+
+}
+
+.down-arrow .caret-down:hover {
+  color: #ffd900!important; /*Active - Text Color*/
+}
+
+/* option-page */
+
+.option-page { /*Background-edit*/
+  background: url('/img/index/the-games-bg.jpg')no-repeat center;
+  min-height: 100vh;
+  position: relative;
+  background-size: cover;
+  top: 0;
+  box-shadow: inset 0px 80px 240px black,
+  inset 0px 100px 200px black,
+  inset 0px -80px 240px black,
+  inset 0px -100px 200px black
+  ;
+}
+
+.option-page .carousel-games {
+  position: absolute;
+  width: 500px;
+  top: 40%;
+  right: 10%;
+}
+
+/*feature-page*/
+
+.ftr-main { /*Background-edit*/
+  background: url('/img/index/features.jpg')no-repeat center;
+  height: 100%;
+  position: relative;
+  background-size: cover;
+  top: 0;
+  box-shadow: inset 0px 40px 120px black,
+  inset 0px 50px 100px black;
+}
+.ftr-main .container {
+  padding-top: 20vh;
+  height: 100vh;
+}
+
+.ftr-main .ftr-text{
+  color: #ffffff;
+}
+
+/* Stepper */
+
+
+.step {
+  top: 10%;
+  position: relative;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  visibility: hidden;
+  background-color: white;
+}
+
+.v-stepper {
+  position: relative;
+}
+
+.step .circle {
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 100%;
+  width: 20px;    
+  height: 20px;
+  display: inline-block;
+}
+
+.step .line {
+  top: 20px;
+  left: 9px;
+  height: 100%;
+  position: absolute;
+  visibility: visible;
+  border-left: 3px solid rgb(255, 255, 255);
+}
+
+.step.completed .circle {
+  visibility: visible;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+}
+
+.step.completed .line {
+  border-left: 3px solid rgb(255, 255, 255);
+}
+
+.step.active .circle {
+  visibility: visible;
+  border-color: rgb(255, 255, 255);
+}
+
+.step.empty .circle {
+  visibility: visible;
+}
+
+
+.ftr-main .ftr-content {
+  visibility: visible;
+  margin-left: 20px;
+  display: inline-block;
+  color: white;
+}
+
+/*req-page*/
+
+.rq-main { /*Background-edit*/
+  background: url('/img/index/requirements.png')no-repeat center;
+  min-height: 100vh;
+  position: relative;
+  background-size: cover;
+  top: 0;
+  box-shadow: inset 50vw 5vh 300px black;
+}
+
+/* system-req */
+.rq-main .rq-text{
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+  top: 100px;
+}
+
+
+.rq-main .rq-sys{
+  color: #ffffff;
+  position: relative;
+  padding-top: 5vh;
+  text-align: left;
+  top: 10vh;
+}
+
+.rq-main .table{
+  color: #ffffff;
+  position: relative;
+}
+
+.rq-main .container {
+  position: relative;
+}
+
+
+.rq-main .table{
+  position: relative;
+}
+
+/**** Top Score */
+
+.top-score { /*Background-edit*/
+  background: url('/img/index/top-score-bg.png')no-repeat center;
+  min-height: 100vh;
+  position: relative;
+  background-size: cover;
+  top: 0;
+  box-shadow: inset 0px 80px 240px black,
+  inset 0px 100px 200px black
+  ;
+}
+
+.top-score .container{
+position: relative;
+}
+
+.top-score .comment-cards .profile-pic {
+  width: 60px;
+  height: auto;
+  left: 1vh;
+  position: absolute;
+  border-radius: 50%;
+  box-shadow: 6px 6px rgb(255, 223, 39);
+}
+
+.top-score .row .card-header .name-stats{
+  position: relative;
+  height: 7vh;
+  width: auto;
+}
+
+.top-score .card-header{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  padding-left: 10vh;
+}
+
+
+.top-score .score-headings h1,
+.top-score .score-headings h2{
+  padding: 20px;
+}
+
+.top-score .btn{
+  padding: 10px;
+  margin-left: 50px;
+}
+
+.top-score .twitter{
+  position: absolute;
+  right: 1vh;
+  bottom: 1vh;
+}
+
+/*newsletter*/
+
+.newsletter { /*Background-edit*/
+  background: url('/img/index/skull-bg.jpg')no-repeat center;
+  min-height: 100vh;
+  position: relative;
+  background-size: cover;
+  top: 0;
+  box-shadow: inset 0px 80px 240px black,
+  inset 0px 100px 200px black
+  ;
+}
+
+.newsletter form input[type="text"] {
+  border: 1px solid grey;
+  font-size: 20px;
+  color: #ffc107;
+}
+
+.newsletter form p {
+  color: grey;
+  position: absolute;
+  font-size: 10px;
+  left: 16px;
+  top: 1px;
+}
+
+.newsletter form button {
+  padding: 9px;
+  font-weight: bold;
+}
+
+
+/* Navigation */
+.navigation-end {
+  background-color: black;
+  height: 20vh;
+  padding: 0;
+  /* Footer */
+}
+
+.navigation-end a {
+  font-family: "Bebas Neue", cursive;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  margin: 0 2vw;
+  word-break: keep-all;
+}
+
+.navigation-end a span {
+  white-space: nowrap;
+}
+
+.navigation-end a span:hover {
+  color: #ffc107 !important;
+}
+
+.navigation-end .socialmedialogo {
+  width: 100% !important;
+}
+
+.navigation-end .socialmedialogo .icon path {
+  fill: white;
+  stroke-width: 0.5;
+  stroke: white;
+}
+  

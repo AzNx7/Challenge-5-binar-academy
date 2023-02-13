@@ -1,0 +1,36 @@
+/* Smart phone version */
+/*min widht should be 576px but to reach minimum type 480 px*/ 
+@media (min-width: 480px) and (max-width: 768px) {
+
+    .contentGame {
+
+        top: 25vh;
+    }
+
+	.contentGame .row div h3 {
+			font-size: 24px;
+	}
+
+	.contentGame .row.gameImage .col-sm-3{
+			height: 100px;
+	}
+
+	.contentGame .row.gameImage .col-sm-2{
+			height: 100px;
+	}
+	
+	.contentGame .row.gameImage img {
+			width: 80px;
+			height: 80px;
+	}
+
+	.contentGame .row.gameImage .versus h1 {
+			font-size: 40px;
+	}
+
+	.contentGame .row.gameImage .versus .result h5 {
+			font-size: 28px;
+			height: 90px !important;
+	}
+}
+
